@@ -4,13 +4,19 @@ public  class City
 {
     private CrmDbContext db;
     public City() { }
-    public City(int cityId, string cityName)
+    public City(int cityId, string? cityName)
     {
         CityId = cityId;
         CityName = cityName;
     }
+    
+    public City(string cityName)
+    {
+        
+    }
+
     public int CityId { get; set; }
-    public required string CityName { get; set; }
+    public required string? CityName { get; set; }
     public virtual ICollection<Address> Addresses { get; set; } = new List<Address>();
     
     public List<City> GetCityList()
