@@ -1010,7 +1010,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CrmDBLab >= 1.0.0",
       "Services >= 1.0.0"
     ]
   },
@@ -1047,9 +1046,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Programming\\C#\\Projects\\Shcool-Point-\\CrmDBLab\\CrmDBLab.csproj": {
-              "projectPath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\CrmDBLab\\CrmDBLab.csproj"
-            },
             "D:\\Programming\\C#\\Projects\\Shcool-Point-\\Services\\Services.csproj": {
               "projectPath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\Services\\Services.csproj"
             }

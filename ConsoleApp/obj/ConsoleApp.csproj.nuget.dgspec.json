@@ -33,9 +33,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Programming\\C#\\Projects\\Shcool-Point-\\CrmDBLab\\CrmDBLab.csproj": {
-                "projectPath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\CrmDBLab\\CrmDBLab.csproj"
-              },
               "D:\\Programming\\C#\\Projects\\Shcool-Point-\\Services\\Services.csproj": {
                 "projectPath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\Services\\Services.csproj"
               }
