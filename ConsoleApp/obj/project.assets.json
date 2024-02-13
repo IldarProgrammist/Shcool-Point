@@ -1021,11 +1021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\MainApp\\MainApp.csproj",
-      "projectName": "MainApp",
-      "projectPath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\MainApp\\MainApp.csproj",
+      "projectUniqueName": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\ConsoleApp\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\ildar\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\MainApp\\obj\\",
+      "outputPath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
