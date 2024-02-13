@@ -1,14 +1,17 @@
 ﻿using CrmDBLab.Models;
 using static System.Console;
 
-
-City city = new City
-{
-    CityName = null
-};
+CityModel cityModel = new();
 
 
-//city.AddCity();
+CityModel city = new CityModel();
+
+//city.CityAdd(7,"бла бла бла");
+
+city.CityDelete(7);
+
+//city.CityUpdate(6,"Ижевск");
+
 
 foreach (var cityList in city.GetCityList())
 {

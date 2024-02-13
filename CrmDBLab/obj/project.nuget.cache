@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WZ6HJeLoR2EQBMvfiggvbDOaSbuG2qCv/FbVXY7kxgupHNyQoPRSVx2JEUKvJd2fYQqvtHc6kUHqTKbakhNn8w==",
+  "dgSpecHash": "Xo3RQkRrgsmqXrueQmUHhS4GuMt3a9g+qx5xEd+9oDwsWqN/8zt/VN7lbuU7gfxj4Ob7EWJ6teyejYUNBN+M5g==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\C#\\Lessons\\01WorkWithDB\\ShcoolPontProd\\CrmDBLab\\CrmDBLab.csproj",
+  "projectFilePath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\CrmDBLab\\CrmDBLab.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ildar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ildar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

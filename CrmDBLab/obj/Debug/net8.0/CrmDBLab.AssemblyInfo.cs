@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrmDBLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d918d9097d3a0f8db559e9cc0800abb8f393af7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92f06830286dd52e79ead3d06b8188401efe5cd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrmDBLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrmDBLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

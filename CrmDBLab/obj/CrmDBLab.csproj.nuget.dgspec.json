@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\C#\\Lessons\\01WorkWithDB\\ShcoolPontProd\\CrmDBLab\\CrmDBLab.csproj": {}
+    "D:\\Programming\\C#\\Projects\\Shcool-Point-\\CrmDBLab\\CrmDBLab.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\C#\\Lessons\\01WorkWithDB\\ShcoolPontProd\\CrmDBLab\\CrmDBLab.csproj": {
+    "D:\\Programming\\C#\\Projects\\Shcool-Point-\\CrmDBLab\\CrmDBLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\C#\\Lessons\\01WorkWithDB\\ShcoolPontProd\\CrmDBLab\\CrmDBLab.csproj",
+        "projectUniqueName": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\CrmDBLab\\CrmDBLab.csproj",
         "projectName": "CrmDBLab",
-        "projectPath": "D:\\Programming\\C#\\Lessons\\01WorkWithDB\\ShcoolPontProd\\CrmDBLab\\CrmDBLab.csproj",
+        "projectPath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\CrmDBLab\\CrmDBLab.csproj",
         "packagesPath": "C:\\Users\\ildar\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\C#\\Lessons\\01WorkWithDB\\ShcoolPontProd\\CrmDBLab\\obj\\",
+        "outputPath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\CrmDBLab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

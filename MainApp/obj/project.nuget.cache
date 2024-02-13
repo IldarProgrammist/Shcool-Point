@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lSkzEpFyF6zCbohh+PWwPvEscXahH+n1KQEPfTfmmnWMaNXl36D/p6G3ZI2KSNJK0h+P9yvcJKuL4z4XErcoTg==",
+  "dgSpecHash": "EeyAmftvnIqoK2Y2dK7Vm2IB8q0Egl0lqOlt3+grNYXjIpaNCWxr/Qif/VIY7XxEjnAya7PSti7YVqnNriqYBg==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\C#\\Lessons\\01WorkWithDB\\ShcoolPontProd\\MainApp\\MainApp.csproj",
+  "projectFilePath": "D:\\Programming\\C#\\Projects\\Shcool-Point-\\MainApp\\MainApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ildar\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.1\\microsoft.entityframeworkcore.8.0.1.nupkg.sha512",
     "C:\\Users\\ildar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.1\\microsoft.entityframeworkcore.abstractions.8.0.1.nupkg.sha512",

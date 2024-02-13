@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "MainApp/1.0.0": {
         "dependencies": {
-          "CrmDBLab": "1.0.0"
+          "CrmDBLab": "1.0.0",
+          "Services": "1.0.0"
         },
         "runtime": {
           "MainApp.dll": {}
@@ -222,6 +223,14 @@
         "runtime": {
           "CrmDBLab.dll": {}
         }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "CrmDBLab": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {}
+        }
       }
     }
   },
@@ -372,6 +381,11 @@
       "hashPath": "npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512"
     },
     "CrmDBLab/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
