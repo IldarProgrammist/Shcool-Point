@@ -29,9 +29,9 @@ D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\ConsoleApp.
 D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
 D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
 D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json
-D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CopyComplete
 D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\ConsoleApp.dll
 D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
 D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
 D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
 D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
+D:\Programming\C#\Projects\Shcool-Point-\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.Up2Date

@@ -9,8 +9,8 @@ D:\Programming\C#\Projects\Shcool-Point-\Services\obj\Debug\net8.0\Services.Asse
 D:\Programming\C#\Projects\Shcool-Point-\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
 D:\Programming\C#\Projects\Shcool-Point-\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
 D:\Programming\C#\Projects\Shcool-Point-\Services\obj\Debug\net8.0\Services.sourcelink.json
-D:\Programming\C#\Projects\Shcool-Point-\Services\obj\Debug\net8.0\Services.csproj.CopyComplete
 D:\Programming\C#\Projects\Shcool-Point-\Services\obj\Debug\net8.0\Services.dll
 D:\Programming\C#\Projects\Shcool-Point-\Services\obj\Debug\net8.0\refint\Services.dll
 D:\Programming\C#\Projects\Shcool-Point-\Services\obj\Debug\net8.0\Services.pdb
 D:\Programming\C#\Projects\Shcool-Point-\Services\obj\Debug\net8.0\ref\Services.dll
+D:\Programming\C#\Projects\Shcool-Point-\Services\obj\Debug\net8.0\Services.csproj.Up2Date
