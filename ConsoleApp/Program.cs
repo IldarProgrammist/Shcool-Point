@@ -25,11 +25,25 @@ namespace ConsoleApp
 
             //city.CityDelete(7);
 
-
             //city.CityUpdate(6,"Ижевск");
-            //addressModel.GetListAll();
 
-            addressModel.GetListAll();
+            //addressModel.GetListAll();
+            //addressModel.GetListAll(); 
+
+           /*foreach(var address in addressModel.GetAddress())
+            {
+                WriteLine($"Город: {address.City.CityName} Район:{address.Area.AreaName}");
+            }*/
+
+           foreach(var address in addressModel.GetAddress()) 
+            {
+                WriteLine($"Город: {address.City.CityName} " +
+                          $"Район: {address.Area.AreaName} " +
+                          $"Улица: {address.Street.StreetName} "+
+                          $"Дом:{address.Building} " +
+                          $"Корпус: {address.Construction} " 
+                          );
+            }
         }
 
     }
