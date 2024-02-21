@@ -1,0 +1,15 @@
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\bin\Debug\net8.0\ModelDomain.deps.json
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\bin\Debug\net8.0\ModelDomain.runtimeconfig.json
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\bin\Debug\net8.0\ModelDomain.dll
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\bin\Debug\net8.0\ModelDomain.pdb
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\ModelDomain.csproj.AssemblyReference.cache
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\ModelDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\ModelDomain.AssemblyInfoInputs.cache
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\ModelDomain.AssemblyInfo.cs
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\ModelDomain.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\ModelDomain.sourcelink.json
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\ModelDomain.dll
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\refint\ModelDomain.dll
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\ModelDomain.pdb
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\ModelDomain.genruntimeconfig.cache
+D:\Programming\C#\Projects\Shcool-Point-\ModelDomain\obj\Debug\net8.0\ref\ModelDomain.dll

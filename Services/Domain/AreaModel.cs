@@ -1,28 +1,27 @@
-﻿using CrmDBLab.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using ModelDomain.Model;
 
 namespace Services.Domain
 {
     public class AreaModel
     {
-        private CrmDbContext? _db;
+        private SchoolPointContext _db;
         private Area? Area;
 
         public List<Area> GetListAll()
         {
-            using (_db = new CrmDbContext())
+            using (_db = new())
             {
                return _db.Areas.ToList();
             }
         } 
         
-        public void AddArea(int id, string areaName)
+        public void AddArea(string areaName)
         {
-            using (_db = new CrmDbContext()) 
+            using (_db = new()) 
             { 
                 Area area = new Area() 
                 { 
-                    AreaId = id,
                     AreaName = areaName
                 };
                 _db.Areas.Add(area);    
@@ -32,18 +31,18 @@ namespace Services.Domain
 
         public void UpdateArea(int id, string areaName)
         {
-            using (var _db = new CrmDbContext())
+            using (_db = new())
             {
-                _db.Areas.Where(area => area.AreaId == id)
-                    .ExecuteUpdate(areaUpdate => areaUpdate
-                    .SetProperty( area => area.AreaName, area=> areaName)
-                );
-            }
+                _db.Areas.ExecuteUpdate(
+                        c=>c.SetProperty(c=>c.AreaName, areaName)
+                    );
+                _db.SaveChanges();
+            }  
         }
     
         public void DeleteArea(int id) 
         { 
-            using(_db = new CrmDbContext())
+            using(_db = new())
             {
                  Area = _db.Areas.FirstOrDefault(a=>a.AreaId == id);
                 _db.Remove(Area);

@@ -1,11 +1,10 @@
-using CrmDBLab.Models;
 using Microsoft.EntityFrameworkCore;
-
+using ModelDomain.Model;
 namespace Services.Domain;
 
 public class CityModel
 {
-    private CrmDbContext _db { get; set; }
+    private SchoolPointContext _db { get; set; }
     private City? City { get; set; }
 
 
@@ -13,38 +12,38 @@ public class CityModel
     {
         using (_db = new())
         {
-            var cities = _db.Cities;
-            return _db.Cities.ToList();     
+            return _db.Cities.ToList();
         }
     }
 
-    public void CityAdd(int id, string cityName)
+    public void CityAdd(string cityName)
     {
-        using (_db = new CrmDbContext())
-        {
+        using (_db = new SchoolPointContext())
+        {       
             City = new()
             {
-                CityId = id,
                 CityName = cityName
             };
             _db.Cities.Add(City);
             _db.SaveChanges();
         }
     }
-    public void CityUpdate(int id, string cityName) 
+    public void CityUpdate(int id, string cityName)
     {
-        using (var _db = new CrmDbContext()) 
+        using (_db = new())
         {
-            _db.Cities.Where(c => c.CityId == id)
-                .ExecuteUpdate(ci => ci
-                .SetProperty(c=>c.CityName, c=>cityName)
-            );
+         var city =_db.Cities
+                 .Where(c => c.CityId == id)
+                 .FirstOrDefault();
+        
+            city.CityName = cityName;
+            _db.SaveChanges();
         }
     }
 
     public void CityDelete(int id)
     {
-        using (_db = new CrmDbContext())
+        using (_db = new SchoolPointContext())
         {
             City = _db.Cities.FirstOrDefault(c => c.CityId == id);
             _db.Cities.Remove(City);

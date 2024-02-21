@@ -1,14 +1,14 @@
-﻿using CrmDBLab.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using ModelDomain.Model;
 namespace Services.Domain
 {
     public class AddressModel
     {
-        private CrmDbContext _db;
+        private SchoolPointContext _db;
 
         public List<Address> GetAddress() 
         {
-            using(_db = new CrmDbContext())
+            using(_db = new SchoolPointContext())
             {
                 var addresess = _db.Addresses
                     .Include(a => a.City)

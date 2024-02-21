@@ -7,44 +7,43 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-             CityModel city = new(); 
-             AreaModel area = new();
-             AddressModel addressModel = new();
+                CityModel city = new(); 
+                AreaModel area = new();
+                AddressModel addressModel = new();
+                CityModel cityModel = new();
 
-            /*area.AddArea(5,"Бла бла бла");*/
-            //area.UpdateArea(5, "Центральный");
 
-            //area.DeleteArea(5);
+            //cityModel.CityAdd("бла бла бла");
+            //cityModel.CityUpdate(6,"Новосибирск");
+            //cityModel.CityDelete(4);
 
-            /*foreach (var listArea in area.GetListAll())
+             AreaModel areaModel = new();
+            //areaModel.UpdateArea(1,"Арбат");
+            //areaModel.AddArea("Бла бла бла");
+            //areaModel.DeleteArea(2);
+
+           /* foreach (var item in cityModel.GetCityList())
             {
-                WriteLine(listArea.AreaName);
-            };*/
-
-            //city.CityAdd(7,"бла бла бла");
-
-            //city.CityDelete(7);
-
-            //city.CityUpdate(6,"Ижевск");
-
-            //addressModel.GetListAll();
-            //addressModel.GetListAll(); 
-
-           /*foreach(var address in addressModel.GetAddress())
-            {
-                WriteLine($"Город: {address.City.CityName} Район:{address.Area.AreaName}");
+                WriteLine($"Город:{item.CityName}");
             }*/
 
-           foreach(var address in addressModel.GetAddress()) 
+           /* foreach (var item in areaModel.GetListAll())
             {
-                WriteLine($"Город: {address.City.CityName} " +
-                          $"Район: {address.Area.AreaName} " +
-                          $"Улица: {address.Street.StreetName} "+
-                          $"Дом:{address.Building} " +
-                          $"Корпус: {address.Construction} " 
-                          );
-            }
-        }
+                WriteLine($"Район:{item.AreaName}");
+            }*/
+        
+        
+            StreetModel streetModel = new();
 
+            foreach (var item in streetModel.GetStreetList())
+            {
+                WriteLine(item.StreetName);
+            }
+
+            //streetModel.StreetAdd("Ленина");
+            //streetModel.StreetUpdate(1, "Невский проспект");
+            //streetModel.StreetDelete(4);
+
+        }
     }
 }
